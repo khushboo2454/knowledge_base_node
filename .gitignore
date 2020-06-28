@@ -1,0 +1,28 @@
+# Logs
+*.log
+logs/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# dotenv environment variables file
+#.env
+
+# Visual Studio Code
+.vscode
+
+# Build directory
+dist
+
+# images and pdfs whose are temporary right now
+#src/assets/images/**
+src/assets/pdf/**
+
+# orm config 
+ormconfig.json
+
+# config 
+src/config/config.ts
+# creating rust command line tool for automatically push to the github, which is still in development
+scripts/
